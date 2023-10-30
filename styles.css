@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1224px;
+    width:90%;
+    margin: auto;
+    padding:40px 0;
+}
+.title{
+margin-bottom: 2rem;
+cursor: pointer;
+text-align: center;
+}
+.photo__gallery{
+    display: flex;
+    gap: 20px;
+    box-shadow: 15px 15px 15px blueviolet;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo img{
+    width:100%;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.title:hover{
+color: blue;
+}
+.photo img:hover{
+transform: 
+scale(2)
+rotate(30deg)
+translate(-25%);
+}
+.photo__gallery:hover{
+    transition-duration: 2s;
+}
