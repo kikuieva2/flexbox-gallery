@@ -3,11 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: pink;
+}
 .container{
     max-width:1224px;
     width:90%;
     margin: auto;
     padding:40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .title{
 margin-bottom: 2rem;
